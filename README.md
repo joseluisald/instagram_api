@@ -21,7 +21,11 @@ Link: https://developers.facebook.com/apps<br>
 #Volte no Facebook Developers, meus Aplicativos.<br>
 #Selecione o app recém criado, no menu lateral esquerdo vá em "Exibição básica do Instagram", "Exibição Básica"<br>
 #Desça até "User Token Generator" e seu @user irá aparecer caso tenha feito tudo certo.<br>
-#Clique em "Generate Token" e salve o token em um arquivo "raiz_do_site/vendor/instagram_api/src/insta_token.txt"<br>
+#Clique em "Generate Token" e salve o token em um arquivo localizado em <br>
+
+<pre>
+"raiz_do_site/vendor/joseluisald/instagram_api/src/insta_token.txt"
+</pre>
 
 #Pronto<br>
 
