@@ -1,8 +1,6 @@
 {
     "name": "joseluisald/instagram_api",
-    "type": "library",
     "description": "Simples API que pega todas as medias do seu instagram",
-    "minimum-stability": "stable",
     "keywords": ["instagram", "api"],
     "license": "MIT",
     "authors": [
