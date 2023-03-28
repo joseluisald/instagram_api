@@ -6,7 +6,7 @@
  * Time: 20:53
  */
 
-namespace instagram_api\Instagram;
+namespace joseluisald\instagram_api;
 
 /**
  * Class Instagram
