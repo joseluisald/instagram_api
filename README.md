@@ -28,7 +28,7 @@ Link: https://developers.facebook.com/apps<br>
 Instalação<br>
 
 <pre>
-    composer require joseluisald/instagram_api
+    composer require joseluisald/instagram_api:dev-main
 </pre>
 
 Modo de Uso
