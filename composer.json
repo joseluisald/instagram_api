@@ -3,6 +3,8 @@
     "description": "Simples API que pega todas as medias do seu instagram",
     "keywords": ["instagram", "api"],
     "license": "MIT",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "José Luis",
