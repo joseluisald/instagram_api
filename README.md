@@ -24,7 +24,7 @@ Link: https://developers.facebook.com/apps<br>
 #Clique em "Generate Token" e salve o token em um arquivo localizado em <br>
 
 <pre>
-"raiz_do_site/vendor/joseluisald/instagram_api/src/insta_token.txt"
+    raiz_do_site/vendor/joseluisald/instagram_api/src/insta_token.txt
 </pre>
 
 #Pronto<br>
@@ -37,9 +37,9 @@ Instalação<br>
 
 Modo de Uso
 <pre>
-    require __DIR__.'/Instagram.php';
+    require __DIR__.'/vendor/autoload.php';
 
-    $insta = new Instagram();
+    $insta = new \Instagram_api\Instagram();
 
     if($insta->getError())
     {
