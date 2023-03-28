@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Instagram\\": "src/"
+            "JoseLuisAld\\Instagram_api\\": "src"
         }
     }
 }
