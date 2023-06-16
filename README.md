@@ -32,7 +32,7 @@ Link: https://developers.facebook.com/apps<br>
 Instalação<br>
 
 <pre>
-    composer require joseluisald/instagram_api:dev-main
+    composer require joseluisald/instagram_api
 </pre>
 
 Modo de Uso

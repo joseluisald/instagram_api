@@ -27,21 +27,24 @@ class Instagram
      */
     private function connect()
     {
+        $this->refreshToken();
+
         $file_token = dirname(__FILE__).'/insta_token.txt';
         $current_token = file_get_contents($file_token);
 
-        $url = "https://graph.instagram.com/me/media?access_token={$current_token}&fields=media_url,media_type,caption,permalink,like_count";
+        $url = "https://graph.instagram.com/me/media?access_token={$current_token}&fields=media_url,media_type,caption,permalink";
 
         $curl = curl_init($url);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
         $result = curl_exec($curl);
+        $err = curl_error($curl);
         curl_close($curl);
 
         $result = json_decode($result);
 
-        if(isset($result->error))
+        if(isset($err->error))
         {
-            $this->error = $result->error;
+            $this->error = $err->error;
         }
         else
         {
